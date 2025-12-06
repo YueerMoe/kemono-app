@@ -1,0 +1,70 @@
+{
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "sharesheet:allow-share-text",
+    "opener:allow-default-urls",
+    "os:allow-locale",
+    "fs:allow-stat",
+    "fs:allow-open",
+    "fs:allow-exists",
+    "fs:allow-mkdir",
+    "fs:allow-read",
+    "fs:read-meta",
+    "fs:allow-write",
+    "fs:allow-read-text-file",
+    "fs:allow-write-text-file",
+    "android-fs:all-without-delete",
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        {
+          "path": "$PICTURE/**"
+        },
+        {
+          "path": "$VIDEO/**"
+        },
+        {
+          "path": "$AUDIO/**"
+        },
+        {
+          "path": "$DOWNLOAD/**"
+        },
+        {
+          "path": "$CACHE/**"
+        },
+        {
+          "path": "$APPCACHE/**"
+        },
+        {
+          "path": "$DATA/**"
+        },
+        {
+          "path": "$APP/**"
+        }
+      ]
+    },
+    {
+      "identifier": "http:default",
+      "allow": [
+        {
+          "url": "https://kemono.cr"
+        },
+        {
+          "url": "https://*.kemono.cr"
+        }
+      ],
+      "deny": [
+        {
+          "url": "https://private.tauri.app"
+        }
+      ]
+    },
+    "os:default"
+  ]
+}
