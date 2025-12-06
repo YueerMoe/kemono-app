@@ -68,12 +68,12 @@ export const en_us = {
     },
     unfavorite: {
         post: {
-            failed: "取消收藏失败",
-            success: "取消收藏成功",
+            failed: "Un favorite Failed",
+            success: "Un favorite Successful",
         },
         artist: {
-            failed: "取消关注失败",
-            success: "取消关注成功",
+            failed: "Un favorite Failed",
+            success: "Un favorite Successful",
         }
     },
     popular: {

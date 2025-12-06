@@ -51,4 +51,9 @@
    ```bash 
    yarn tauri android build --target aarch64
    ```
+## Contributors
+<a href="https://github.com/YueerMoe/kemono-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=YueerMoe/kemono-app" />
+</a>
 
+Made with [contrib.rocks](https://contrib.rocks).
