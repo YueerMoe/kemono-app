@@ -4,7 +4,7 @@
   <img src="./src/assets/logo.png" alt="Logo" width="120" height="120">
 </p>
 
-<p style="text-align: center">
+<p style="align-items: center">
   <img src="https://img.shields.io/badge/platform-Android-blue?style=for-the-badge" alt="Platform">
   <img src="https://img.shields.io/badge/Tauri-2.0-yellow?style=for-the-badge" alt="Framework">
   <img src="https://img.shields.io/badge/Vue-3.0-darkgreen?style=for-the-badge" alt="License">
